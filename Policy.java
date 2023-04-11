@@ -46,13 +46,25 @@ public class Policy{
 
 
          //////////////SETTERS////////////////
+         /**
+         Sets policy number 
+         @param polnum
+         
+         */
          
          public void setPolicyNum(int polnum)
          {
             policyNumber = polnum;
             
          }
-
+         
+          /**
+         Sets provider name
+         @param provName
+         
+         */
+         
+         
          public void setProviderName(String provName)
          {
          
@@ -60,30 +72,72 @@ public class Policy{
          
          }
          
+          /**
+         Sets policy holder's first name
+         @param firstName
+         
+         */
+         
+         
          public void setHolderFirstName(String firstName)
          {
             holderFirstName = firstName;
          }
-
+         
+          /**
+         Sets policy holder's last name
+         @param lastName
+         
+         */
+         
+         
          public void setHolderLastName(String lastName)
          {
             holderLastName = lastName;
          }
+         
+          /**
+         Sets policy holder's age
+         @param age
+         
+         */
+         
          
          public void setHolderAge(int age)
          {
             holderAge = age;
          }
          
+          /**
+         Sets smoker status 
+         @param smoke
+         
+         */
+         
+         
          public void setSmokingStatus(String smoke)
          {
             smokingStatus = smoke;
          }
          
+          /**
+         Sets policy holder's height 
+         @param height
+         
+         */
+         
+         
          public void setHolderHeight(double height)
          {
             holderHeight = height;
          }
+         
+          /**
+         Sets policy holder's weight
+         @param weight
+         
+         */
+         
          
          public void setHolderWeight(double weight)
          {
@@ -92,40 +146,89 @@ public class Policy{
          
          /////////////GETTERS//////////////////
          
+          /**
+         Gets and returns policy number 
+         @return policyNumber
+         
+         */
+         
+         
          public int getPolicyNumber()
          {
             return policyNumber;
          }
+         
+          /**
+         Gets and returns the provider name 
+         @return providerName
+         
+         */
          
          public String getProviderName()
          {
             return providerName;
          }
          
+          /**
+         Gets and returns policy holder's frist name
+         @return holderFirstName
+         
+         */
+         
          public String getHolderFirstName()
          {
             return holderFirstName;
          }
+         
+          /**
+         Gets and returns policy holder's last name
+         @return holderLastName
+         
+         */
          
          public String getHolderLastName()
          {
             return holderLastName;
          }
          
+          /**
+         Gets and returns policy holder's age
+         @return holderAge
+         
+         */
+         
          public int getHolderAge()
          {
             return holderAge;
          }
+         
+          /**
+         Gets and returns smoker status 
+         @return smokingStatus
+         
+         */
          
          public String getSmokingStatus()
          {
             return smokingStatus;
          }
          
+          /**
+         Gets and returns policy holder's height
+         @return holderHeight
+         
+         */
+         
          public double getHolderHeight()
          {
             return holderHeight;
          }
+         
+          /**
+         Gets and returns policy holder's weight
+         @return holderWeight
+         
+         */
          
          public double getHolderWeight()
          {
@@ -133,6 +236,12 @@ public class Policy{
          }
          
          ///////////////////////method that returns BMI//////////////////
+         
+          /**
+         Gets and returns policy holder's BMI
+         @return BMI
+         
+         */
          
          public double getBMI()
          {
@@ -142,6 +251,12 @@ public class Policy{
          }  
          
          /////////////////////method that returns price of insurance//////////////////////
+         
+          /**
+         Gets and returns the insurance price 
+         @return insurancePrice
+         
+         */
          
          public double getInsurancePrice()
          {
